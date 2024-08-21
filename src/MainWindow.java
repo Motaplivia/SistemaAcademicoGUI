@@ -13,6 +13,7 @@ public class MainWindow {
         telas = new ArrayList<Tela>();
 
         window = new JFrame();
+        window.setTitle("Sistema Acadêmico");
         window.setSize(800, 600);
         window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         window.setLocationRelativeTo(null);
